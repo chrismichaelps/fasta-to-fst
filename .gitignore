@@ -1,0 +1,99 @@
+# OS-specific files
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+
+## Linux
+*~
+.nfs*
+
+# Compiled object files, static and dynamic libraries
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+*.elf
+
+# Build directories
+/build/
+/bin/
+/dist/
+/Debug/
+/Release/
+/x64/
+/x86/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+Makefile
+
+# Autotools generated files
+.aclocal.m4
+.autoscan.log
+.compile
+.config.*
+.config.status
+.depcomp
+.install-sh
+.libs/
+.license
+.ltmain.sh
+.m4/
+.missing
+.pytest_cache/
+
+# IDE and editor settings
+
+## CodeBlocks
+*.cbp
+*.layout
+
+## Qt Creator
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+
+## CLion
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+## VS Code
+.vscode/
+
+## Xcode
+*.xcworkspace
+*.xcuserdata/
+*.xcuserstate
+
+## Eclipse
+.metadata/
+*.bak
+*.swp
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
