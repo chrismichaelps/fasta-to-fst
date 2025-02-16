@@ -16,7 +16,7 @@ namespace fst{
   void FastaFstBuilder::InitializeSymbolTable(){
     // The epsilon symbol is added at position 0.
     syms.AddSymbol("<eps>", 0);
-    // Se definen los 20 aminoácidos estándar.
+    // The 20 standard amino acids are defined.
     const std::string symbols = "ACDEFGHIKLMNPQRSTVWY";
     for (size_t i = 0; i < symbols.size(); ++i){
       syms.AddSymbol(std::string(1, symbols[i]), i + 1);
